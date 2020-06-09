@@ -2,8 +2,10 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-
-Vue.config.productionTip = false;
+// 注册 Vant 组件
+import './utils/register'
+// 引入 REM 适配
+import 'amfe-flexible'
 
 new Vue({
   router,
