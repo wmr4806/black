@@ -6,6 +6,10 @@ import store from "./store";
 import './utils/register'
 // 引入 REM 适配
 import 'amfe-flexible'
+// 引入公共样式
+import './styles/index.less'
+import request from './utils/request'
+Vue.prototype.$axios = request
 
 new Vue({
   router,

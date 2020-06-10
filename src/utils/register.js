@@ -14,7 +14,11 @@ import {
 	TabbarItem,
 	Tab,
 	Tabs,
-	List
+	List,
+	Search,
+	Popup,
+	Grid,
+	GridItem
 } from 'vant'
 
 Vue.use(Button)
@@ -31,3 +35,7 @@ Vue.use(Button)
 	.use(Tab)
 	.use(Tabs)
 	.use(List)
+	.use(Search)
+	.use(Popup)
+	.use(Grid)
+	.use(GridItem)
