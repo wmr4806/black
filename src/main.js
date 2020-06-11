@@ -8,6 +8,8 @@ import './utils/register'
 import 'amfe-flexible'
 // 引入公共样式
 import './styles/index.less'
+// 引入 dayjs 过滤器
+import './utils/dayjs'
 import request from './utils/request'
 Vue.prototype.$axios = request
 
